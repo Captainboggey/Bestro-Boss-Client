@@ -31,10 +31,10 @@ const Menu = () => {
             {/* offered */}
             <MenuCategory items={offered}></MenuCategory>
             {/* dessert item */}
-            <MenuCategory title={'Desert'} img={desertImg} items={dessert}></MenuCategory>
-            <MenuCategory title={'Pizza'} img={pizzaImg} items={pizza}></MenuCategory>
-            <MenuCategory title={'Salad'} img={saladImg} items={salad}></MenuCategory>
-            <MenuCategory title={'Soup'} img={soupImg} items={soup}></MenuCategory>
+            <MenuCategory title={'desert'} img={desertImg} items={dessert}></MenuCategory>
+            <MenuCategory title={'pizza'} img={pizzaImg} items={pizza}></MenuCategory>
+            <MenuCategory title={'salad'} img={saladImg} items={salad}></MenuCategory>
+            <MenuCategory title={'soup'} img={soupImg} items={soup}></MenuCategory>
             
         </div>
     );
